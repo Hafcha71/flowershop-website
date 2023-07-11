@@ -1,0 +1,408 @@
+/*common shared styles*/
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* banner related styles */
+.banner {
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.banner-img {
+    width: 635px;
+    height: 800px;
+    padding-top: 50px;
+}
+
+.primary-btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: none;
+}
+
+/* this is featured section related style */
+main {
+    max-width: 1920px;
+    /* height: 4867px */
+    /* height: 4867px; */
+    margin: 0px auto
+}
+
+.featured {
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-bottom: 250px;
+}
+
+.featured-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 170px;
+}
+
+.featured-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.featured-imgs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image {
+    border: none;
+    justify-content: center;
+    /* border-radius: 300px 300px 0px 0px; */
+    /* gap: 24px; */
+    width: 464px;
+    height: 538px;
+    width: 464px;
+    height: 538px;
+}
+
+.flower1 {
+    /* width: 310px; */
+    /* height: 428px; */
+    padding: 110px 78px 0px 78px;
+    /* width: 464px; */
+    /* height: 538px; */
+    /* border-width:464px; */
+    /* border-height:538px; */
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    /* padding-top: 110px 78px 78px 0px; */
+}
+
+.flower2 {
+    /* width: 464px; */
+    /* height: 538px; */
+    padding: 117px 47px 51px 47px;
+    /* width:370px; */
+    /* height: 370px; */
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.flower3 {
+    /* width: 464px; */
+    /* height: 538px; */
+    /* width: 314px; */
+    /* height: 471px; */
+    padding: 67px 75px 0px 75px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.flower-name {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    padding-top: 5px;
+    /* padding-bottom: 128px; */
+}
+
+/* this is option section styles */
+
+.options {
+    /* border-radius: 8px; */
+    width: 1440px;
+    height: 320px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.option-image {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 88px;
+    height: 88px;
+}
+
+.option-name {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+
+/* this is hot deals styles */
+.hot-deals-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 130px;
+    margin-bottom: 130px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.hot-deals {
+    /* display: block; */
+    margin: auto;
+}
+
+.hot-deals-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin-left: 400px;
+}
+
+.hot-deals-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 395px;
+}
+
+.second-btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: none;
+    margin-left: 603px;
+}
+
+.hot-deals-img {
+    margin-right: 423px;
+}
+
+/* social section styles */
+.social {
+    margin-bottom: 128px;
+    margin-top: 128px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.social-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.social-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.social-imgs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+/* latest deals styles */
+.deals {
+    background: url(./flowers/rectangle9.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* width: 1400px; */
+    height: 449px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.latest-deals-title {
+    padding-top: 122px;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.latest-deals-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+.lat-deals {
+
+    /* margin: auto; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+
+    /* margin-right: 900px; */
+}
+
+.textt {
+    /* border: none; */
+    width: 700px;
+    height: 64px;
+    border: 23px 513px 23px 23px;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 400px;
+    border: none;
+    padding-left: 10px;
+    /* margin-right: 287px; */
+}
+
+.third-btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: none;
+    margin-right: 300px;
+    margin-left: 10px;
+}
+
+/* this is extra section */
+.payment {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 130px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.payment-title {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 122px;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.payment-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    margin: auto;
+}
+
+.fourth-btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: none;
+    margin-right: 0px;
+    margin-left: 300px;
+    margin-bottom: 100px;
+}
+
+.payment-img {
+    width: 400px;
+    height: 400px;
+}
+
+
+
+/* this is footer section */
+.footer-column {
+    background: black;
+}
+
+.footer-title {
+    color: #E55473;
+    text-align: center;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 128px;
+    margin-bottom: 24px;
+    padding-top: 128px;
+}
+
+.shop {
+    color: white;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.footer-end {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 128px;
+    margin-bottom: 32px;
+}
